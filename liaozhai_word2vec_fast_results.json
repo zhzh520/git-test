@@ -1,0 +1,26 @@
+{
+    "聊斋快速配置": {
+        "config": {
+            "name": "聊斋快速配置",
+            "embedding_dim": 50,
+            "batch_size": 2048,
+            "epochs": 8,
+            "learning_rate": 0.05,
+            "optimizer": "Adam"
+        },
+        "intrinsic_metrics": {
+            "average_similarity": 0.442391022936562,
+            "silhouette_score": 0.0167298074811697,
+            "calinski_harabasz": 14.79970936738955,
+            "vector_variance": 0.4965817928314209
+        },
+        "analogy_metrics": {
+            "analogy_accuracy": 0.0,
+            "correct": 0,
+            "total": 5,
+            "correct_pairs": []
+        },
+        "final_loss": 1.3046209310429007,
+        "total_training_time": 143.3192355632782
+    }
+}
